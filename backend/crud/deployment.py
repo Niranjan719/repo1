@@ -22,10 +22,10 @@ MIDDLEWARE = [
 ]
 
 
-CORS_ALLOWED_ORIGINS = [
-    'https://lively-sea-0145bb00f.5.azurestaticapps.net',
-    'http://localhost:3000',
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'https://lively-sea-0145bb00f.5.azurestaticapps.net/',
+    
+# ]
 
 
 STORAGES = {
