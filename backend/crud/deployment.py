@@ -22,9 +22,9 @@ MIDDLEWARE = [
 ]
 
 
-# CORS_ALLOWED_ORIGINS = [
-#     '' 
-# ]
+CORS_ALLOWED_ORIGINS = [
+    'https://lively-sea-0145bb00f.5.azurestaticapps.net' 
+]
 
 
 STORAGES = {
@@ -50,9 +50,8 @@ DATABASES = {
 }
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',
+    BASE_DIR / 'staticfiles',
 ]
 
 
-STATIC_ROOT = BASE_DIR/'staticfiles'
 
