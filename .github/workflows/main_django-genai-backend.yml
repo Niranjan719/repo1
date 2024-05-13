@@ -38,7 +38,7 @@ jobs:
       - name: Collect static files
         run: |
           cd backend
-          python manage.py collectstatic --noinput --settings=backend.settings
+          python manage.py collectstatic --noinput
       
 
           
